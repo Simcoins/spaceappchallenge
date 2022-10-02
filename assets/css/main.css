@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+}
+.thumnail_image {
+    background-image:url(/assets/img/TextPage.png);
+}
+.thumnail_image_Story1 {
+    background-image:url(https://media.discordapp.net/attachments/1004025132014121042/1025749659890765835/solarswingby.gif);
+}
+
+.wordtext {
+    color: black;
+    font: 10 normal 2.5em 'tahoma';
+}

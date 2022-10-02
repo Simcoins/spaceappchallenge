@@ -1,0 +1,189 @@
+@font-face {
+  font-family: 'SpaceGrotesk';
+  src: url(/font/SpaceGrotesk-Bold-ttf);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: black;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.dop {
+  z-index: 1;
+  color: aliceblue;
+}
+
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-direction: row;
+}
+
+.button {
+  position: absolute;
+  bottom: 40px;
+  right: 60px;
+}
+
+.button2 {
+  position: absolute;
+  bottom: 40px;
+  left: 60px;
+}
+
+.button {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  word-spacing: normal;
+
+  letter-spacing: 5px;
+  border: 1px solid white;
+  background: black;
+  cursor: pointer;
+
+  color: white;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.button2 {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  word-spacing: normal;
+
+  letter-spacing: 5px;
+  border: 1px solid white;
+  background: black;
+  cursor: pointer;
+
+  color: white;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.button:hover {
+  background: white;
+  color: black;
+  transition: 0.5s;
+  transform: scale(1.2);
+}
+
+.button2:hover {
+  background: white;
+  color: black;
+  transition: 0.5s;
+  transform: scale(1.2);
+}
+
+.Page {
+  position: absolute;
+  top: 90%;
+  left: 44.5%;
+  transform: translate(-90%, -44.5%);
+}
+
+.Page {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  word-spacing: normal;
+
+  letter-spacing: 5px;
+  border: 1px solid white;
+  background: black;
+  cursor: pointer;
+
+  color: white;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+.Page:hover {
+  background: white;
+  color: black;
+  transition: 0.5s;
+  transform: scale(1.2);
+}
+
+.section-2 {
+  padding: 20px;
+  padding-left: 60px;
+}
+
+.section-2 h1 {
+  padding: 20px 20px 10px;
+  font-size: 30px;
+  font-family: 'SpaceGrotesk', sans-serif;
+}
+
+.section-2 p {
+  padding: 20px;
+  line-height: 1.8em;
+  font-size: 18px;
+  font-family: 'SpaceGrotesk', sans-serif;
+}
+
+
+.section-2 h5 {
+  font-size: 50px;
+  justify-content: center;
+  text-align: center;
+  font-family: 'SpaceGrotesk', sans-serif;
+}
+
+.section-2 {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  padding: 20px;
+  padding-left: 60px;
+  color: #eee;
+  height: 110vh;
+}
+
+
+.course-col {
+  background: #ffffff3a;
+  border-radius: 10px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  color: rgb(255, 255, 255);
+  width: 1000px;
+  margin: auto;
+}
+
+.course-col:hover{
+    background: white;
+    color: black;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+
